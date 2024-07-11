@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nom-eval"
+version = "0.1.0"
+description = ""
+authors = ["ash"]
+license = "Copy my code please"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.42.4"
+torch = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
